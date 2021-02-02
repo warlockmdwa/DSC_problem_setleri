@@ -9,7 +9,7 @@ for($i=2;$i<=100;$i++)
         if ($i%$j==0)
         $asal=false;
       }
-      if ($asal) echo "Asal sayilar","<br>",$i."<br>";
+      if ($asal) echo $i."<br>";
 }
  
 
