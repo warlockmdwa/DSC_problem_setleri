@@ -167,8 +167,8 @@ def run():
     #Stackoverflow kisa yolu
     elif "stack overflow" in commandIt:
         search = webbrowser.open("stackoverflow.com",commandIt)
-        talk(search)
-        print(search)
+        talk("As you wish")
+        print("As you wish")
 
 
     #Zaman bildirimi
