@@ -1,7 +1,7 @@
 def fb():
 
     while True:
-        fizzerBuzzer = input("Sayı sınırını belirtiz: ")
+        fizzerBuzzer = input("Sayı sınırını belirtiniz: ")
         try:
             for f in range(int(fizzerBuzzer)):  #fizzerBuzzer degiskenini for dongusune alip istedigimiz sayiyi veriyoruz
                 if (f % 3 == 0):
